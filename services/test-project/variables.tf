@@ -44,12 +44,12 @@ variable "vpc_private_subnet_cidr" {
   default = {
     param1 = {
       name = "private-1a"
-      cidr = "192.168.128.0/24"
+      cidr = "192.168.127.0/24"
       zone = "ap-northeast-1a"
     }
     param2 = {
       name = "private-1c"
-      cidr = "192.168.129.0/24"
+      cidr = "192.168.128.0/24"
       zone = "ap-northeast-1c"
     }
   }
